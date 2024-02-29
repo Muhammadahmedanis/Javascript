@@ -278,9 +278,7 @@
 //   }
 
 
-
-
-//6: check   var currAge = +prompt("Enter current age");
+//6:   var currAge = +prompt("Enter current age");
 // var maxAge = +prompt("Enter maximum age");
 // if (currAge < maxAge || currAge == maxAge) {
 //     document.write("You are welcome")
@@ -292,7 +290,6 @@
 //     document.write("Please refill the fuel in your car")
 // }
  
-
 
 
 //8:(a)  var a = 4;
@@ -413,14 +410,12 @@
 // } 
 
 
-//14: check var str = "Pakistan";
-// var num = 1947;
-// var bool = true;
-// if (typeof(str) === "pak") {
-//     document.write(`${str} is a string`)
-// }else {
-//     document.write(`Declare wrong data type`)
-// }
+//14: var str = "Pakistan";
+//    var num = 1947;
+//    var bool = true;
+// document.write(`Pakistan is a ${typeof(str)}`);
+// document.write(`<br/>1947 is a ${typeof(num)}`);
+// document.write(`<br/>true is a ${typeof(bool)}`);
 
 
 //15:  var num = +prompt("Enter Number");
@@ -443,8 +438,7 @@
 //   }
 
 
-// 17: 
-// var num1 = +prompt("Enter num1");
+//17:  var num1 = +prompt("Enter num1");
 // var num2 = +prompt("Enter num2");
 // var op = prompt("Enter operator");
 //     if (op == "+") {
@@ -460,8 +454,7 @@
 // }
 
 
-
-//19:)  var dayName = prompt("Enter Day name");
+//18:  var dayName = prompt("Enter Day name");
 //     if (dayName == "Monday" || dayName == "Tuesday" || dayName == "Wednesday" || dayName == "Thursday" || 
 //         dayName == "Friday") {
 //           document.write("It is a week day")
@@ -503,7 +496,7 @@
 // }
 
 
-//22  var num = +prompt("Enter Number");
+//22:  var num = +prompt("Enter Number");
 // if (num >= 0) {
 //     document.write("Positive number");
 // }else {
@@ -518,6 +511,168 @@
 // }else {
 //     document.write(`${num} ${noun}`)
 // }
+
+
+
+// CHAPTER-12 AND 13
+
+//1: var num = +prompt("Enter Number");
+//   if (num % 3 == 0) {
+//      document.write("divisilble by 3");
+//   }else {
+//     document.write("Not divisible by 3");
+//  }
+
+//3:  var age = +prompt("Enter age");
+//    if (age > 18) {
+//      document.write("Old enough");
+//    }else{
+//      document.write("Too young");
+//    }
+
+
+//4:  var name = prompt("Enter your name");
+//    if (name == "ahmed") {
+//      document.write("Oo! we both have same name");
+//    }
+
+
+//6: var character = prompt("Enter chracter");
+//   var result = character.charCodeAt(0);
+//   if (result >= 65 && result <= 90) {
+//      document.write(`${character} is Uppercase and ASCII code of given character is ${result}`);
+//   }else if(result >= 97 && result <= 122 ) {
+//      document.write(`${character} is Lowercase and ASCII code of given character is ${result}`);
+//   }else {
+//      document.write("Unable to show result");
+//   }
+
+
+// 8
+
+
+//9: var year = +prompt("Enter year to check it is a leap year or not");
+//   if (year % 4 == 0 || year % 400 == 0) {
+//      document.write(`${year} is a leap year`);
+//   }else if (year % 100 !== 0) {
+//      document.write(`${year} is not a leap year`);
+//   }
+
+
+//10:  var passward = "12345@";
+//     var input = prompt("Enter passward");
+//     if (passward == input) {
+//       document.write("Correct!");
+//     }else {
+//       document.write("Incorrect passward");
+//     }
+
+
+//11: var firstName = prompt("Enter Name");
+//    if (firstName == "Fahad") {
+//      document.write("Hello Fahad!");
+//    }else {
+//      document.write("You are not Fahad");
+//    }
+
+
+//12:  var greeting;
+//     var hour = +prompt("Enter hour format 1 to 24");
+//     if (hour < 18) {
+//       document.write(greeting = "Good day");
+//     }else {
+//       document.write(greeting = "Good morninig");
+//     }
+
+
+//13:  var num1 = +prompt("Enter Number1");
+//     var num2 = +prompt("Enter Number2");
+//     if (num1 > num2) {
+//       document.write(`num1 is greater`);
+//     }else if(num1 < num2){
+//       document.write(`num2 is greater`);
+//     }else if(num1 == num2) {
+//       document.write(`num1 equal to num2`)
+//     }
+
+
+//15: var currHour = +prompt("Enter current hour");
+//    if (currHour >= 1 && currHour <= 13) {
+//      if (currHour >= 6 && currHour <= 9) {
+//         document.write("Breakfast");
+//      }else if(currHour >= 11 && currHour <= 13) {
+//         document.write("Time for lunch");
+//      }else {
+//         document.write("Sorry you will have to wait");
+//      }
+
+// }else if (currHour >= 14 && currHour <= 24) {
+//     if(currHour >= 17 && currHour <= 20) {
+//         document.write("It is dinner time");
+//     }else {
+//         document.write("Sorry you will have to wait");
+//     }
+// }
+
+
+//16: var str  = "Pakistan";
+//    var bool   = true;
+//    var num    = 3; 
+//    var year;
+//    document.write(typeof(str))
+//    document.write("<br/>"+typeof(bool))
+//    document.write("<br/>"+typeof(num))
+//    document.write("<br/>"+typeof(year))
+
+
+
+//17: var input = prompt("Enter chracter");
+//    var result = input.charCodeAt(0);
+//    if(result == 97 || result == 101 || result == 105 || result == 111 || result == 117 || result == 65 || result ==  69
+//     || result == 73 || result == 79 || result == 85) {
+//       document.write(`${input} is a vowel`);
+//    }else {
+//      document.write(`${input} is a consonent`);
+//    }
+
+
+//18:  if (10 != 8 ) {  alert(true)  }
+
+
+//19: var month = prompt("Enter month");
+// if (month > 12) {
+//     alert("Given month number not exit")
+// }else if (month == 1) {
+//     alert("January");
+// }else if (month == 2) {
+//     alert("Fabuary");
+// }else if(month == 3) {
+//     alert("March");
+// }else if(month == 4) {
+//     alert("April");
+// }else if(month == 5) {
+//     alert("May");
+// }else if(month == 6) {
+//     alert("June");
+// }else if(month == 7) {
+//     alert("July");
+// }else if(month == 8) {
+//     alert("August");
+// }else if (month == 9) {
+//     alert("September")
+// }else if (month == 10) {
+//     alert("October")
+// }else if (month == 11) {
+//     alert("November")
+// }else {
+//     alert("December")
+// }
+
+
+
+
+
+
 
 
 
