@@ -523,6 +523,8 @@
 //     document.write("Not divisible by 3");
 //  }
 
+
+
 //3:  var age = +prompt("Enter age");
 //    if (age > 18) {
 //      document.write("Old enough");
@@ -531,10 +533,12 @@
 //    }
 
 
+
 //4:  var name = prompt("Enter your name");
 //    if (name == "ahmed") {
 //      document.write("Oo! we both have same name");
 //    }
+
 
 
 //6: var character = prompt("Enter chracter");
@@ -551,12 +555,14 @@
 // 8
 
 
+
 //9: var year = +prompt("Enter year to check it is a leap year or not");
 //   if (year % 4 == 0 || year % 400 == 0) {
 //      document.write(`${year} is a leap year`);
 //   }else if (year % 100 !== 0) {
 //      document.write(`${year} is not a leap year`);
 //   }
+
 
 
 //10:  var passward = "12345@";
@@ -568,12 +574,14 @@
 //     }
 
 
+
 //11: var firstName = prompt("Enter Name");
 //    if (firstName == "Fahad") {
 //      document.write("Hello Fahad!");
 //    }else {
 //      document.write("You are not Fahad");
 //    }
+
 
 
 //12:  var greeting;
@@ -585,6 +593,7 @@
 //     }
 
 
+
 //13:  var num1 = +prompt("Enter Number1");
 //     var num2 = +prompt("Enter Number2");
 //     if (num1 > num2) {
@@ -594,6 +603,7 @@
 //     }else if(num1 == num2) {
 //       document.write(`num1 equal to num2`)
 //     }
+
 
 
 //15: var currHour = +prompt("Enter current hour");
@@ -615,6 +625,7 @@
 // }
 
 
+
 //16: var str  = "Pakistan";
 //    var bool   = true;
 //    var num    = 3; 
@@ -634,6 +645,7 @@
 //    }else {
 //      document.write(`${input} is a consonent`);
 //    }
+
 
 
 //18:  if (10 != 8 ) {  alert(true)  }
