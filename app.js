@@ -14,7 +14,7 @@
 //     "<tr><td><b> Experience: </b>" + experience + "</tr></td>" + "<tr><td><b>About:  </b>" + about + "</td></tr>"   + "<table>"
 // )
 
-    
+
 
 //  CHAPTER-1
 //1:  alert("Thanks for visiting our website")
@@ -96,7 +96,7 @@
 //              var fullName = "Ali mehar";
 //              var $number = 50;
 //              var place_of_Birth = "Pakistan";
-                // var number$10 = 45;
+// var number$10 = 45;
 
 //2:(Illegal-var) var full name = "";
 //                var 3serial = "";
@@ -289,7 +289,7 @@
 //    if (input < 0.25) {
 //     document.write("Please refill the fuel in your car")
 // }
- 
+
 
 
 //8:(a)  var a = 4;
@@ -878,3 +878,232 @@
 // document.write(arr);
 
 
+
+// EXERCISE 18 TO 20
+// var i;
+
+//1: for (i=1; i<6; i++) {
+//     document.write(`Hello World <br/>`)
+// }
+
+
+
+//2: for (i=1; i<=10; i++) {
+//     document.write(`${i} <br/>`)
+// }
+
+
+//3: var input1 = +prompt("Enter table");
+//  var input2 = +prompt("Enter length");
+//  for (i=1;i<=input2; i++) {
+//     document.write(`${input1} x ${i} = ${input1*i} <br/>`)
+// }
+
+
+//4: var arr = ["Nokia", "Sumsung", "Apple", "Sony", "Huawei"]
+//   for (i=0; i<arr.length; i++) {
+//     document.write(arr[i] + "<br/>")
+// }
+
+
+
+//5: var arr = ["apple", "banana", "mango", "orange", "strawbery"];
+//   for (i=0; i<arr.length; i++) {
+//     // document.write(arr[i] + "<br/>");
+//     document.write(`Element at index ${i} is ${arr[i]} <br/>`)
+// }
+
+
+
+// chack
+// var arr= [];
+// var value;
+// var input = +prompt("Enter number"); 
+// for (value = 1;  value<=input; value++) {
+//     value = prompt("Enter value");   
+//     document.write(
+//         `Number of items: ${arr.length}
+//         <br/> Items: 
+//         <br/> ${arr.push(value)}`
+//         )
+//     }
+
+
+
+// 7
+//a: for (i=1; i<16; i++) {
+//     document.write(`${i} <br/>`)
+// }
+
+//b: for (i=10; i>0; i--) {
+//     document.write(`${i} <br/>`)
+// }
+
+//c: for (i = 1; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//         document.write(i + "<br/>");
+//     }
+// }
+
+//d: for (i=1; i<=20; i++) {
+//     if (i%2==1) {
+//         document.write(i + "<br/>");
+//     }
+// }
+
+//e: for (i = 1; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//         document.write(i  + " k"+ "<br/>");
+//     }
+// }
+
+
+
+//8: var input = prompt("Enter value");
+//   var arr = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+// if (arr.includes(input)) {
+//     document.write(`${input} is <b>available</b> at index ${arr.indexOf(input)}`);
+// }else {
+//     document.write("Not available");
+// }
+
+
+
+//9: var num = [2,34,12,89];
+//   var largest = num[0];
+//   for (i=0; i<num.length; i++) {
+//     if (num[i] > largest) {
+//         largest = num[i];
+//     }
+// }
+// document.write(`largest number: ${largest}`);
+
+
+
+//10: var num = [2,34,12,89];
+//    var largest = num[0];
+//    for (i=0; i<num.length; i++) {
+//      if (num[i] < largest) {
+//         largest = num[i];
+//     }
+// }
+// document.write(`largest number: ${largest}`);
+
+
+
+//11: var num = [2, 34, 12, 89];
+//    var largest = num[0];
+//    var smallest = num[0];
+// for (i = 0; i < num.length; i++) {
+//     if (num[i] > largest) {
+//         largest = num[i];
+//     } 
+//     else if (num[i] < smallest) {
+//         smallest = num[i];
+//     }
+// }
+// document.write(`largest number: ${largest}`);
+// document.write(`<br/> Smallest number: ${smallest}`);
+
+
+
+//12: for (i = 1; i <= 100; i++) {
+//     if (i % 5 == 0) {
+//         document.write(`${i} ,`)
+//     }
+// }
+
+
+
+//13: var student = ["Ali" ,"Sami", "Taha", "Inam"];
+//    var score = [58, 70, 83, 90];
+//    document.write(
+//      `<table border= "1px">
+//      <tr><td>${student[0]}</td><td>${score[0]}</td><tr/>
+//      <tr><td>${student[1]}</td><td>${score[1]}</td><tr/>
+//      <tr><td>${student[2]}</td><td>${score[2]}</td><tr/>
+//      <tr><td>${student[3]}</td><td>${score[3]}</td><tr/>
+//      </table>`
+// )
+
+
+
+//14: var input = +prompt("Enter number");
+//    var score = [2, 45, 67, 23];
+//    var n;
+// if (score.includes(input)) {
+//     n = score.indexOf(input);
+// document.write(score.slice(0,n+1));
+// } else {
+//     document.write("incorrect input")
+// }
+
+
+
+// 15
+
+
+
+//16: var input = +prompt("Enter number");
+//    for (i=input; i>=0; i = i-0.5) {
+//      document.write(`${i} <br/>`)
+// }
+
+
+
+//17: for (i = 1; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//         document.write(`${i} even <br/>`)
+//     } else {
+//         document.write(`${i} odd<br/>`)
+//     }
+// }
+
+
+
+//18: var j = 1;
+// for (i = 1; i <= 7; i++) {
+//     if (i % 2 == 1) {
+//         j = j * i;
+//     }
+// }
+// document.write(j);
+
+
+
+//19: var n = 7, j;
+//    for (i = n; i > 0; i--) {
+//       for (j = i; j > 0; j--) {
+//         document.write(" * ")
+//     }
+//        document.write("<br/>")
+// }
+
+
+
+
+// 20
+// var n =5, j;
+
+//a: for (i=1; i<=n; i++) {
+//     for (j=1; j<=n; j++) {
+//         document.write(" * ");
+//     }
+//     document.write("<br/>");
+// }
+
+
+//b: for (i=1; i<=n; i++) {
+//     for (j=i; j>0; j--) {
+//         document.write(" * ");
+//     }
+//     document.write("<br/>");
+// }
+
+
+// c: for (i=n; i>0; i--) {
+//     for (j=i; j>0; j--) {
+//         document.write(" * ")
+//     }
+//     document.write("<br/>")
+// }
