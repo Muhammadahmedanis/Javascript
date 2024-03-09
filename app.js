@@ -1107,3 +1107,162 @@
 //     }
 //     document.write("<br/>")
 // }
+
+
+
+// ***********************************************************************
+    // int i{1};
+    // do {
+    //     cout<<i;
+    //     i++;
+    // }while(i<=10);
+    
+    // for (i=1; i<=5; i++){
+    // cout<<i;
+    // cout<<"Ok"<<endl;}
+    
+    
+    // while(i==1)
+    // i = i - 1;
+    // cout<<i;
+    
+    // int i ;
+    // while (i=10) {
+    //     cout<<i;
+    //     i = i+1;
+    // }
+    
+    
+    // while ('b' > 'a') {
+    //     cout<<"*";
+    // }
+    
+    
+    // i = 10;
+    // while (i=20) {
+    //     cout<<i;
+    // }
+    
+    
+    // int i{1}, n{5};
+    // for (i=1; i<=2*n-1; i+=2) {
+    //         cout<<i<<endl;
+    // }
+    
+    
+    // AP
+    // int a = 1;
+    // for (i=1; i<=n; i++) {
+    //     cout<<a<<endl;
+    //     a += 2;
+    // }
+    
+    
+    // GP
+    // int a =1;
+    // for (i=1; i<=n; i++) {
+    //     cout<<a<<endl;
+    //     a *= 2;
+    // }
+    
+    
+    
+    
+    // type casting
+    // char ch;
+    // cin>>ch;
+    // cout<<int(ch);
+    
+    
+    // int x;
+    // cin>>x;
+    // cout<<char(x);
+    
+    
+    // int n,i,f{1};
+    // cin>>n;
+    // for (i=1; i<=n/2; i++) { //i<n
+    //     if ( n % i == 0) {
+    //         f = i;
+    //     }
+    // }
+    // cout<<"HCF: "<<f;
+
+
+    // break  use
+    // for (i=n/2; i>=1; i--) {
+    //     if (n % i == 0) {
+    //         cout<<i<<" ";
+    //         break;
+    //     }
+    // }
+
+
+    // composite number
+    // for (i=n/2; i>=2; i--) {
+    //     if (n % i == 0) {
+    //         cout<<"composite: "<<i;
+    //         break;
+    //     }
+    // }
+    
+    // check both prime & composite
+    // bool flag = true; //prime
+    // for (i = n/2; i>=2; i++) {
+    //     if (n % i == 0) {
+    //         flag = false; //composite
+    //         break;
+    //     }
+    // }
+    // if (n==1){
+    //     cout<<"neither prime nor composite";
+    // }else if (flag == true) {
+    //     cout<<"prime";
+    // }else {
+    //     cout<<"composite";
+    // }
+    
+    
+    
+    // countinue
+    // method1
+    // for (i=1; i<=20; i++) {
+    //     if (i!=3 && i!=8) {
+    //         cout<<i<<" ";
+    //     }
+    // }
+    
+    
+    // method2
+    // int i;
+    // for (i=1; i<=20; i++) {
+    //     if (i==3 || i==8) 
+    //         continue;
+    //     {
+    //         cout<<i<<" ";
+    //     }
+    // }
+    
+    
+    
+    // for (int i = 1; i<=100; i++) {
+    //     if (i%2==0)
+    //     continue;
+    //     {
+    //         cout<<i<<" ";
+    //     }
+    // }
+    
+    
+    
+    
+//     int x= 4, y =0;
+//     while (x >= 0) { 
+//         x--;  //  4: 3  3: 2  2: 1  1: 0  0: -1
+//         y++;  //    1     2     3     4       5
+//         if (x == y) {   //  3 == 1  2 == 2  1 == 3  0 == 4
+//             continue;
+//         }else {
+//             cout<<x<<" "<<y<<endl;
+//         }
+//     }  //  3 1 , 1 3 , 0 4 , -1 5
