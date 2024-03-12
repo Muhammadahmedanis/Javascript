@@ -1266,3 +1266,309 @@
 //             cout<<x<<" "<<y<<endl;
 //         }
 //     }  //  3 1 , 1 3 , 0 4 , -1 5
+
+
+
+// Exercise 20 to 25
+
+//1: var firstName = prompt("Enter first Name ");
+//   var lastName = prompt("Enter last name ");
+//   var fullName = firstName + " " + lastName;
+//   alert(`Hi ${fullName}`); 
+
+
+
+//2: var input = prompt("Enter fav mobile phone ");
+//   var si = input.length;
+//   document.write(`my favourite mobile phone is ${input}`);
+//   sdocument.write(`<br/>length of string ${si}`)
+
+
+
+//3: var str  = "Pakistan";
+//   var ind = str.indexOf("n");
+//   document.write(`index of n ${ind}`);
+
+
+
+//4: var str = "Hello World";
+//   var ind = str.lastIndexOf("l");
+//   document.write(`last index of l ${ind}`);
+
+
+//5: var str = "Pakistani";
+//   var ind = str.charAt(3);
+//   document.write(`Character at 3rd index: ${ind}`);
+
+
+//6: var firstName = prompt("Enter first Name ");
+//   var lastName = prompt("Enter last name ");
+//   var fullName = firstName.concat(" ", lastName);  
+//   alert(`Hi ${fullName}`); 
+
+
+//7: var str = "Hyderabad";
+//   var str1 = str.replace("Hydera", "Islama");
+//   document.write(`${str} <br/> value after replacement: ${str1}`); 
+
+
+//8: var msg = "Ali and Sami are best friends.They play cricket and football togather";
+//   var rep = msg.replaceAll("and", "&");
+//   document.write(`${msg} <br/>After replacement: ${rep}`);
+
+
+//9: var str = "435";
+//   var res = typeof(str);
+//   var num = typeof(Number(str));
+//   document.write(`Value: ${str} type: ${res}`);
+//   document.write(`<br/>Value: ${str} type: ${num}`);
+
+
+//10: var input = prompt("Enter URL ");
+//    var domain = input.slice(4);
+//    document.write(`URL: ${input} <br/> Domain: ${domain}`);
+
+
+//11: var input = prompt("Enter value ");
+//    var cap = input.toUpperCase();
+//    document.write(`User input: ${input} <br/> Uppercase value: ${cap}`);
+
+
+//12: var input = prompt("Entervalue ");
+//    var sm = input.toLowerCase();
+//    document.write(`User input: ${input} <br/> Lowercase: ${sm}`);
+
+
+//13: var input = prompt("Enter value");
+//    var up = input.slice(0,1).toUpperCase();
+//    var sm = input.slice(1).toLowerCase();
+//    var result = up + sm; 
+//    document.write(`User input: ${input} <br/> Titlecase: ${result}`)
+
+
+//14: var num = "34.17";
+//    var rep = num.replace(".", "");
+//    document.write(`Number: ${num} <br/> Result: ${rep}`);
+
+
+//15: var a = "1";
+//    var b = "1"; 
+//    var result = a + b; 
+//    document.write(`a is ${a} b is ${b} <br/> a + b is ${result}`);
+
+
+//16: var a = "1";
+//    var b = "1"; 
+//    var result = a - b; 
+//    document.write(`a is ${a} b is ${b} <br/> a - b is ${result}`);
+
+
+//17: var arr = ["@", "$", "!", "*", "#"];
+//    var input = prompt("Enter name");
+//    msg = true;
+// for (var i=0; i<input.length; i++) {
+//     for (var j=0; j<arr.length; j++) {
+//         if (input[i] == arr[j]) {
+//             msg = false;
+//             document.write(`${input[i]} enter valid username`);
+//         }
+//     }
+// }
+// if (msg == true) {
+// document.write(`${input} <br/> your passward is valid `);
+// }
+
+
+//18: var arr = ["Cake", "Biscuit", "Sweet","Chip"];
+//    var input = prompt("Enter value"); 
+//    var msg = "Not available";
+// for (var i=0; i<arr.length; i++) {
+//     if (input == arr[i]) {
+//         msg = `${arr[i]} is available at ${i} index`;
+//     }
+// }
+// document.write(msg);
+
+
+//19: var r, p=0, q, s=0;
+//    var msg = `${p} equal to ${s}`;
+//    var input1 = prompt("Enter value 1");
+// for (var i=0; i<input1.length; i++) {
+//     r = input1[i].charCodeAt();
+//     p = p + r;
+// }
+// var input2 = prompt("Enter value 2");
+// for (var j=0; j<input2.length; j++) {
+//     q = input2[j].charCodeAt();
+//     s = s + q;
+// }
+// if (p > s) {
+//     msg = `${input1} (${p}) is greater than ${input2} (${s})`
+// }else if (p < s) {
+//     msg = ` ${input1} (${p}) is less than ${input2} (${s})`
+// }
+// document.write(msg);
+
+
+// 20
+// var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// var input = prompt("Enter passawrd");
+// var y = typeof(input);
+// var z = typeof(input);
+// if (input.length <= 6 && input.startsWith(num) ) {
+//     // alert("Invalid")
+// }else 
+
+
+
+
+
+
+
+//21: var str = "University of karachi";
+//    var output = str.split('');
+//    for (var i=0; i<output.length; i++) {
+//      document.write(output[i] + "<br/>")
+//    }
+
+
+//22: var input = prompt("Enter value");
+//    var ind = input.charAt(input.length - 1);
+//    document.write(`last index of input: ${ind}`);
+
+
+// chcek24
+// var sum;
+// var str = "The quick brown fox jumps over the lazy dog";
+// var fid = "the";
+// for (var i=0; i.includes(str); i++) {
+//     if (i == str.includes(fid)) {
+//         sum++
+//     }
+// }
+// document.write(sum);
+
+
+
+
+//24 check
+// var vowel = 0, consonent = 0;
+// var arr = ["a", "e", "i","o", "u"]; 
+// var input = prompt("Enter value");
+// for (var i=0; i<=input.length; i++) 
+// {
+//         for(var j=0; j<arr.length; j++) 
+//         {
+//             if (input[i] == arr[j]) {
+//                 vowel++;
+//                 break;
+//             }
+//         }
+// }
+// document.write(`vowel: ${vowel} <br/>consonent:  ${consonent}`);
+
+
+// var x = "b";
+// var out= x.charCodeAt()
+// document.write(out)
+
+
+
+
+
+
+// Exercise 26 to 34
+
+//1: var input = +prompt("Enter number ");
+// var num1 = Math.floor(input);
+// var num2 = Math.ceil(input);
+// var num3 = Math.round(input);
+// document.write(
+//     `${input} <br/> round off values ${num3} <br/> floor values ${num1} <br/> ceil vlues ${num2}`
+// )
+
+
+//2: var input = +prompt("Enter -ve number ");
+// var num1 = Math.floor(input);
+// var num2 = Math.ceil(input);
+// var num3 = Math.round(input);
+// document.write(
+//     `${input} <br/> round off values ${num3} <br/> floor values ${num1} <br/> ceil values ${num2}`
+// )
+
+
+//3: var input = +prompt("Enter number ");
+// var num1 = Math.floor(input);
+// var num2 = Math.ceil(input);
+// var num3 = Math.round(input);
+// document.write(
+//     `${input} <br/> round off values ${num3} <br/> floor values ${num1} <br/> ceil values ${num2}`
+// )
+
+
+//4: var input = +prompt("Enter -ve number");
+//   var num1 = Math.floor(input);
+//   var num2 = Math.ceil(input);
+//   var num3 = Math.round(input);
+// document.write(
+//     `${input} <br/> round off values ${num3} <br/> floor values ${num1} <br/> ceil values ${num2}`
+// )
+
+
+//5: var input = +prompt("Enter number");
+// if (input < 0) {
+//     var p = input * -1;
+//     document.write(input, " ", p)
+// }else {
+//     document.write(input);
+// }
+
+
+//6: var user1 = +prompt("Enter value1 ");
+// var user2 = +prompt("Enter value2 "); 
+// var dice = Math.random() * 6;
+// var convert = dice.toFixed(0);
+// if (convert == 4 && user1 == 4) {
+//     alert(`Your dice value ${user1}`);
+// }else if(convert == 6 && user2 == 6) {
+//     alert(`Your dice value ${user2}`);
+// }else {
+//     alert("Value not match");
+// }
+
+
+//7: var head = +prompt("enter value1 ");
+// var tail = +prompt("Entere value2 ");
+// var toss = Math.random() * 2;
+// var convert = toss.toFixed(0);
+// if (convert == 1 && head == 1) {
+//     alert("value is head");
+// }
+// else if (convert == 2 && tail == 2) {
+//     alert("value is tail");
+// }else {
+//     alert("tie")
+// }
+
+
+//8: var num = Math.random() * 100;
+//  var convert = num.toFixed(0);
+//  document.write(`Random number between 1 and 100: (${convert})`);
+
+
+//10: var input = +prompt("Enter Number b/w 1 & 10");
+// var num = Math.random() *10;
+// var convert = num.toFixed(0);
+// if (input == convert) {
+//     alert(`Congrats ${convert}`);
+// }else if( input++ == convert || input-- == convert) {
+//     alert(` ${input} You are near to number ${convert}`);
+// } else {
+//     alert(`Not match ${convert}`);
+// }
+
+
+
+
+
+
