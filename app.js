@@ -1437,14 +1437,17 @@
 //    document.write(`last index of input: ${ind}`);
 
 
-// chcek24
-// var sum;
+
+//23: var sum = 0;
 // var str = "The quick brown fox jumps over the lazy dog";
-// var fid = "the";
-// for (var i=0; i.includes(str); i++) {
-//     if (i == str.includes(fid)) {
-//         sum++
+// var find = "the";
+// var find2 = "The";
+// var check = str.split(' ');
+// for (var i=0; i<check.length; i++) {
+//     if (check[i] == find || check[i] == find2) {
+//         sum++;
 //     }
+//     // document.write(check[i], "<br/>");
 // }
 // document.write(sum);
 
@@ -1568,7 +1571,101 @@
 // }
 
 
+//11 *********
+// var date = new Date();
+// // document.write(date);
+// var str = date.toString();
+// var convert = str.slice(0, 3)
+// document.write(convert)
+
+//12: var arr = ["Jan", "Feb", "March", "April", "May", "June", "July", "August", "Sep", "Oct" ,"Nov", "Dec"];
+// var mon = new Date().getMonth()
+// alert(arr[mon]);
 
 
 
+//13: var date = new Date();
+// var str = date.toString();
+// var convert = str.slice(0, 3)
+// document.write(convert)
 
+
+//14: var date = new Date();
+// var str = date.toString();
+// var convert = str.slice(0, 3)
+// if (convert == "Sat" || convert == "Sun") {
+//     alert("It is a fun day");
+// }
+
+
+
+//15: var date = new Date().getDate();
+// if (date >= 15) {
+//     document.write(`First fiifteen days of month ${date}`);
+// }else {
+//     document.write(`Last days of month ${date}`);
+// }
+
+
+
+//16: var time = new Date().getTime()
+// var convert = time / (1000 * 60);
+// document.write(time,"<br/>",convert);
+
+
+
+//17: var date = new Date().getHours();
+// if (date <= 12) {
+//     document.write("It's AM")
+// }else {
+//     document.write("It's PM")
+// }
+
+// 18
+
+
+//19: var date = new Date().getTime();
+// var date2 = new Date('1 Jan, 2024').getTime();
+// var result = date - date2;
+// var convert = result / (1000 * 60 * 60 * 24);
+// document.write(`${Math.floor(convert)} days passed since Winter vocation end`);
+
+
+//20: var date = new Date().getTime();
+// var date2 = new Date("1 Jan, 2024").getTime();
+// var result = date - date2;
+// var convert = result / (1000 * 60 );
+// document.write(`${Math.floor(convert)} had passed since beigining of 2024`)
+
+
+// 21 22
+
+
+//23: var date = new Date().getTime();
+// var date2 = new Date("15 Dec, 2004").getTime();
+// var result = date - date2;
+// var convert = result / (1000 * 60 * 60 *24 * 365);
+// document.write(`Your age is ${Math.floor(convert)}`)
+
+
+
+//24: var arr = ["Jan", "Feb", "March", "April", "May", "June", "July", "August", "Sep", "Oct" ,"Nov", "Dec"];
+// var coustName = "Hamza";
+// var month = new Date().getMonth();
+// var units = 100;
+// var charges = 20;
+// var withInDue = units * charges;
+// var lateCharges = 500;
+// var afterDue = withInDue + 500;
+// document.write(
+//     `
+//     <table border = '1px'><b>K-Electric bill</b>
+//     <tr><td>Coustomer Name: ${coustName}</td<></tr>
+//     <tr><td>Month: ${arr[month]}</td<></tr>
+//     <tr><td>Number of Units: ${units}</td<></tr>
+//     <tr><td>Charges per unit: ${charges}</td></tr>
+//     <tr><td>Net amount payable (with in due date): ${withInDue}</tr></td>
+//     <tr><td>Late payment surcharge: ${lateCharges}</tr></td>
+//     <tr><td>Amount payable (after due date): ${afterDue}</tr></td>
+//     </table> `
+// )
