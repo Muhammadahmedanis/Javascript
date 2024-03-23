@@ -8,7 +8,6 @@
 // var about = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure facere inventore nam eveniet aspernatur animi suscipit ratione a est deserunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quidem, dolor ex cum illum accusantium laborum ipsa aut, laudantium quis soluta saepe, doloribus velit sunt tempore? Incidunt quos provident veritatis alias consequuntur aliquam natus, amet veniam dolores. Est, debitis non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptate accusantium debitis perferendis optio corporis. Rerum quaerat quae labore amet adipisci aperiam, velit quis, nemo fuga expedita nihil omnis cum."
 // var img= "<img style = 'text-align: center' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXPQ4zKTX0LFVmTeldb5xNWxvGWBoB-c_dQ&usqp=CAU' alt = ''>"
 
-
 // document.write(
 //     "<table border='1px' width = '1000px'> <tr><td><b> Name: </b>"+ firstName + " </td></tr>" + "<br/> <tr><td><b> Conatct No: </b>" + contact +  "</td></tr>" + "<br> <tr><td><b> Email: </b>" + email + "</td><tr>"  + "<br> <tr><td><b> Education: </b>" + education + "</td></td>" + "<tr><td><b> Skills: </b>" + skils + "<tr><td><b> Intern: </b>"+ intern + "</td></tr>" +"</tr></td>" +
 //     "<tr><td><b> Experience: </b>" + experience + "</tr></td>" + "<tr><td><b>About:  </b>" + about + "</td></tr>"   + "<table>"
@@ -30,7 +29,6 @@
 //    console.log("alert(" + "Hello.. I can run JS through my web Browser's console" + ")" );
 
 
-
 // CHAPTER-2
 //1:  var userName = "ahmed1245";
 //2:  var myName = "Muhammad Ahmed";
@@ -38,6 +36,7 @@
 
 //3:  var message = "Hello World";
 //    alert(message);
+
 
 //4   var name= "Muhammad Ahmed";
 //    var num = 17;
@@ -47,6 +46,7 @@
 //    alert(num);
 //    alert(studies);
 //    alert(diploma);
+
 
 //6:  var num = 5;
 //    var partnerName = "Alles";
@@ -149,11 +149,6 @@
 //    document.write("The cost to buy 5 movie tickets is: " + total + "PKR");
 
 
-//5: document.write("Multipilication  table of 4")
-
-
-
-
 //6:  var Tf = "53.6";
 //    var Tc = (Tf-32)*5/9;
 //    document.write(`${Tf}'F is in ${Tc}'C`);
@@ -249,7 +244,6 @@
 
 
 // CHAPTER-8 to 11
-
 //1: var input = prompt("Enter your name ");
 //   alert(`Hi, ${input}`)
 
@@ -388,6 +382,7 @@
 //     </table>`
 // )
 
+
 // 11:
 
 
@@ -524,7 +519,6 @@
 //  }
 
 
-
 //3:  var age = +prompt("Enter age");
 //    if (age > 18) {
 //      document.write("Old enough");
@@ -533,12 +527,10 @@
 //    }
 
 
-
 //4:  var name = prompt("Enter your name");
 //    if (name == "ahmed") {
 //      document.write("Oo! we both have same name");
 //    }
-
 
 
 //6: var character = prompt("Enter chracter");
@@ -554,15 +546,12 @@
 
 // 8
 
-
-
 //9: var year = +prompt("Enter year to check it is a leap year or not");
 //   if (year % 4 == 0 || year % 400 == 0) {
 //      document.write(`${year} is a leap year`);
 //   }else if (year % 100 !== 0) {
 //      document.write(`${year} is not a leap year`);
 //   }
-
 
 
 //10:  var passward = "12345@";
@@ -574,14 +563,12 @@
 //     }
 
 
-
 //11: var firstName = prompt("Enter Name");
 //    if (firstName == "Fahad") {
 //      document.write("Hello Fahad!");
 //    }else {
 //      document.write("You are not Fahad");
 //    }
-
 
 
 //12:  var greeting;
@@ -593,7 +580,6 @@
 //     }
 
 
-
 //13:  var num1 = +prompt("Enter Number1");
 //     var num2 = +prompt("Enter Number2");
 //     if (num1 > num2) {
@@ -603,7 +589,6 @@
 //     }else if(num1 == num2) {
 //       document.write(`num1 equal to num2`)
 //     }
-
 
 
 //15: var currHour = +prompt("Enter current hour");
@@ -647,7 +632,6 @@
 //    }
 
 
-
 //18:  if (10 != 8 ) {  alert(true)  }
 
 
@@ -682,8 +666,6 @@
 
 
 
-
-
 // CHAPTER 14 to 17
 //3: var arr = ["SMIT ", " DEC-210"];
 //   var arr;
@@ -709,12 +691,10 @@
 //   document.write(arr);
 
 
-
 //7: var arr = ["Jazz ", " Uphone ", " Telenor ", " Mobilink "];
 //   var arr;
 //   arr = ["Jazz ", " Uphone ", " Telenor ", " Mobilink"];
 //   document.write(arr);
-
 
 
 //8: var education = ["HSC", "SSC", "BCS", "BS", "BCOM", "MS", "M.Phil","PhD"];
@@ -887,7 +867,6 @@
 // }
 
 
-
 //2: for (i=1; i<=10; i++) {
 //     document.write(`${i} <br/>`)
 // }
@@ -906,7 +885,6 @@
 // }
 
 
-
 //5: var arr = ["apple", "banana", "mango", "orange", "strawbery"];
 //   for (i=0; i<arr.length; i++) {
 //     // document.write(arr[i] + "<br/>");
@@ -914,20 +892,16 @@
 // }
 
 
-
-// chack
-// var arr= [];
-// var value;
+//6: var arr= [];
 // var input = +prompt("Enter number"); 
-// for (value = 1;  value<=input; value++) {
-//     value = prompt("Enter value");   
+// for (var i = 0; i<input; i++) {
+//     arr[i] = prompt("Enter value");   
+// }
 //     document.write(
 //         `Number of items: ${arr.length}
 //         <br/> Items: 
-//         <br/> ${arr.push(value)}`
-//         )
-//     }
-
+//         <br/> ${arr}`
+//     )
 
 
 // 7
@@ -968,7 +942,6 @@
 // }
 
 
-
 //9: var num = [2,34,12,89];
 //   var largest = num[0];
 //   for (i=0; i<num.length; i++) {
@@ -977,7 +950,6 @@
 //     }
 // }
 // document.write(`largest number: ${largest}`);
-
 
 
 //10: var num = [2,34,12,89];
@@ -1014,7 +986,6 @@
 // }
 
 
-
 //13: var student = ["Ali" ,"Sami", "Taha", "Inam"];
 //    var score = [58, 70, 83, 90];
 //    document.write(
@@ -1025,7 +996,6 @@
 //      <tr><td>${student[3]}</td><td>${score[3]}</td><tr/>
 //      </table>`
 // )
-
 
 
 //14: var input = +prompt("Enter number");
@@ -1039,9 +1009,18 @@
 // }
 
 
-
-// 15
-
+// 15******************************
+// var numbers = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+// for (i=0; i<numbers.length; i++) {
+//     for (j=0; j<numbers[i].length; j++) {
+//         document.write(numbers[i][j] + " "); 
+//     }
+//     document.write("<br/>")
+// }
 
 
 //16: var input = +prompt("Enter number");
@@ -1081,7 +1060,6 @@
 
 
 
-
 // 20
 // var n =5, j;
 
@@ -1111,151 +1089,151 @@
 
 
 // ***********************************************************************
-    // int i{1};
-    // do {
-    //     cout<<i;
-    //     i++;
-    // }while(i<=10);
-    
-    // for (i=1; i<=5; i++){
-    // cout<<i;
-    // cout<<"Ok"<<endl;}
-    
-    
-    // while(i==1)
-    // i = i - 1;
-    // cout<<i;
-    
-    // int i ;
-    // while (i=10) {
-    //     cout<<i;
-    //     i = i+1;
-    // }
-    
-    
-    // while ('b' > 'a') {
-    //     cout<<"*";
-    // }
-    
-    
-    // i = 10;
-    // while (i=20) {
-    //     cout<<i;
-    // }
-    
-    
-    // int i{1}, n{5};
-    // for (i=1; i<=2*n-1; i+=2) {
-    //         cout<<i<<endl;
-    // }
-    
-    
-    // AP
-    // int a = 1;
-    // for (i=1; i<=n; i++) {
-    //     cout<<a<<endl;
-    //     a += 2;
-    // }
-    
-    
-    // GP
-    // int a =1;
-    // for (i=1; i<=n; i++) {
-    //     cout<<a<<endl;
-    //     a *= 2;
-    // }
-    
-    
-    
-    
-    // type casting
-    // char ch;
-    // cin>>ch;
-    // cout<<int(ch);
-    
-    
-    // int x;
-    // cin>>x;
-    // cout<<char(x);
-    
-    
-    // int n,i,f{1};
-    // cin>>n;
-    // for (i=1; i<=n/2; i++) { //i<n
-    //     if ( n % i == 0) {
-    //         f = i;
-    //     }
-    // }
-    // cout<<"HCF: "<<f;
+// int i{1};
+// do {
+//     cout<<i;
+//     i++;
+// }while(i<=10);
+
+// for (i=1; i<=5; i++){
+// cout<<i;
+// cout<<"Ok"<<endl;}
 
 
-    // break  use
-    // for (i=n/2; i>=1; i--) {
-    //     if (n % i == 0) {
-    //         cout<<i<<" ";
-    //         break;
-    //     }
-    // }
+// while(i==1)
+// i = i - 1;
+// cout<<i;
+
+// int i ;
+// while (i=10) {
+//     cout<<i;
+//     i = i+1;
+// }
 
 
-    // composite number
-    // for (i=n/2; i>=2; i--) {
-    //     if (n % i == 0) {
-    //         cout<<"composite: "<<i;
-    //         break;
-    //     }
-    // }
-    
-    // check both prime & composite
-    // bool flag = true; //prime
-    // for (i = n/2; i>=2; i++) {
-    //     if (n % i == 0) {
-    //         flag = false; //composite
-    //         break;
-    //     }
-    // }
-    // if (n==1){
-    //     cout<<"neither prime nor composite";
-    // }else if (flag == true) {
-    //     cout<<"prime";
-    // }else {
-    //     cout<<"composite";
-    // }
-    
-    
-    
-    // countinue
-    // method1
-    // for (i=1; i<=20; i++) {
-    //     if (i!=3 && i!=8) {
-    //         cout<<i<<" ";
-    //     }
-    // }
-    
-    
-    // method2
-    // int i;
-    // for (i=1; i<=20; i++) {
-    //     if (i==3 || i==8) 
-    //         continue;
-    //     {
-    //         cout<<i<<" ";
-    //     }
-    // }
-    
-    
-    
-    // for (int i = 1; i<=100; i++) {
-    //     if (i%2==0)
-    //     continue;
-    //     {
-    //         cout<<i<<" ";
-    //     }
-    // }
-    
-    
-    
-    
+// while ('b' > 'a') {
+//     cout<<"*";
+// }
+
+
+// i = 10;
+// while (i=20) {
+//     cout<<i;
+// }
+
+
+// int i{1}, n{5};
+// for (i=1; i<=2*n-1; i+=2) {
+//         cout<<i<<endl;
+// }
+
+
+// AP
+// int a = 1;
+// for (i=1; i<=n; i++) {
+//     cout<<a<<endl;
+//     a += 2;
+// }
+
+
+// GP
+// int a =1;
+// for (i=1; i<=n; i++) {
+//     cout<<a<<endl;
+//     a *= 2;
+// }
+
+
+
+
+// type casting
+// char ch;
+// cin>>ch;
+// cout<<int(ch);
+
+
+// int x;
+// cin>>x;
+// cout<<char(x);
+
+
+// int n,i,f{1};
+// cin>>n;
+// for (i=1; i<=n/2; i++) { //i<n
+//     if ( n % i == 0) {
+//         f = i;
+//     }
+// }
+// cout<<"HCF: "<<f;
+
+
+// break  use
+// for (i=n/2; i>=1; i--) {
+//     if (n % i == 0) {
+//         cout<<i<<" ";
+//         break;
+//     }
+// }
+
+
+// composite number
+// for (i=n/2; i>=2; i--) {
+//     if (n % i == 0) {
+//         cout<<"composite: "<<i;
+//         break;
+//     }
+// }
+
+// check both prime & composite
+// bool flag = true; //prime
+// for (i = n/2; i>=2; i++) {
+//     if (n % i == 0) {
+//         flag = false; //composite
+//         break;
+//     }
+// }
+// if (n==1){
+//     cout<<"neither prime nor composite";
+// }else if (flag == true) {
+//     cout<<"prime";
+// }else {
+//     cout<<"composite";
+// }
+
+
+
+// countinue
+// method1
+// for (i=1; i<=20; i++) {
+//     if (i!=3 && i!=8) {
+//         cout<<i<<" ";
+//     }
+// }
+
+
+// method2
+// int i;
+// for (i=1; i<=20; i++) {
+//     if (i==3 || i==8) 
+//         continue;
+//     {
+//         cout<<i<<" ";
+//     }
+// }
+
+
+
+// for (int i = 1; i<=100; i++) {
+//     if (i%2==0)
+//     continue;
+//     {
+//         cout<<i<<" ";
+//     }
+// }
+
+
+
+
 //     int x= 4, y =0;
 //     while (x >= 0) { 
 //         x--;  //  4: 3  3: 2  2: 1  1: 0  0: -1
@@ -1277,12 +1255,10 @@
 //   alert(`Hi ${fullName}`); 
 
 
-
 //2: var input = prompt("Enter fav mobile phone ");
 //   var si = input.length;
 //   document.write(`my favourite mobile phone is ${input}`);
 //   sdocument.write(`<br/>length of string ${si}`)
-
 
 
 //3: var str  = "Pakistan";
@@ -1410,7 +1386,7 @@
 // document.write(msg);
 
 
-// 20
+// 20 check
 // var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 // var input = prompt("Enter passawrd");
 // var y = typeof(input);
@@ -1418,9 +1394,6 @@
 // if (input.length <= 6 && input.startsWith(num) ) {
 //     // alert("Invalid")
 // }else 
-
-
-
 
 
 
@@ -1453,9 +1426,7 @@
 
 
 
-
-//24 check
-// var vowel = 0, consonent = 0;
+//24: var vowel = 0, consonent = 0;
 // var arr = ["a", "e", "i","o", "u"]; 
 // var input = prompt("Enter value");
 // for (var i=0; i<=input.length; i++) 
@@ -1468,6 +1439,7 @@
 //             }
 //         }
 // }
+// consonent = input.length - vowel;
 // document.write(`vowel: ${vowel} <br/>consonent:  ${consonent}`);
 
 
@@ -1477,11 +1449,7 @@
 
 
 
-
-
-
 // Exercise 26 to 34
-
 //1: var input = +prompt("Enter number ");
 // var num1 = Math.floor(input);
 // var num2 = Math.ceil(input);
@@ -1598,14 +1566,12 @@
 // }
 
 
-
 //15: var date = new Date().getDate();
 // if (date >= 15) {
 //     document.write(`First fiifteen days of month ${date}`);
 // }else {
 //     document.write(`Last days of month ${date}`);
 // }
-
 
 
 //16: var time = new Date().getTime()
@@ -1621,7 +1587,15 @@
 //     document.write("It's PM")
 // }
 
-// 18
+
+//18 var date = new Date();
+// document.write("<b>Current time: </b>"+ date + "<br/> <br/>")
+// date.setDate(31);
+// date.setFullYear(2020)
+// date.setMonth(11)
+// date.setMinutes(0)
+// date.setSeconds(0)
+// document.write("<b>later   time : </b>"+date);
 
 
 //19: var date = new Date().getTime();
@@ -1638,7 +1612,17 @@
 // document.write(`${Math.floor(convert)} had passed since beigining of 2024`)
 
 
-// 21 22
+//21 var date = new Date();
+// document.write(date + "<br/>")
+// date.setHours(22)
+// document.write(date);
+
+
+//22: var date = new Date();
+// document.write(date + "<br/>")
+// date.setFullYear(1924);
+// document.write(date);
+
 
 
 //23: var date = new Date().getTime();
@@ -1669,3 +1653,221 @@
 //     <tr><td>Amount payable (after due date): ${afterDue}</tr></td>
 //     </table> `
 // )
+
+
+// Exercise 35-38
+
+//1: function output() {
+//     var date = new Date();
+//     console.log(date);
+// }
+// output();
+
+
+//2: function name(firstName, lastName) {
+//     return firstName + lastName;
+// }
+// alert("Welcome to " + name("Ali", " Mehar"))
+
+
+//3: var a = +prompt("Enter num1 ");
+// var b = +prompt("Enter num2 ");
+// function add(a, b){
+//     return a + b;
+// }
+// console.log(add(a, b));
+
+
+//4: var a = +prompt("Enter value1 ");
+// var b = +prompt("Enter value2 ");
+// var op = prompt("Enter operator ");
+// var result;
+// function Calculator(a, b, op) {
+//     if(op == "+") {
+//         result = a + b;
+//     }else if(op == "-") {
+//         result = a - b;
+//     }else if(op == "*") {
+//         result = a * b;
+//     }else if(op == "/"){
+//         result = a /b ;
+//     }else {
+//         result = a % b;
+//     }
+//     return result;
+// }
+// console.log(Calculator(a, b, op));
+
+
+//5: function sqr(a) {
+//     return a*a;
+// }
+// alert(sqr(3))
+
+
+//6: function fac(a) {    
+//     var pro = 1;
+//     for(var i=a; i>0; i--) {
+//         pro = pro*i;
+//     }
+//     return pro;
+// }
+// alert(fac(5))
+
+
+//7: var num;
+// var a = +prompt("Enter starting number ");
+// var b = +prompt("Enter ending number ");
+// function count(a, b) {
+//     for(var i=a; i<=b; i++) {
+//        num = i;
+//        console.log(num);
+//     }
+//     // return num;
+// }
+// // console.log(count(1, 4));
+// count(a, b);
+
+
+//8: function outer(h) {
+//     function inner(b,p) {
+//         return (b*b + p*p)^0.5;
+//     } 
+//     console.log(inner(4, 3));
+//     return h*h;
+// }
+// console.log(outer(5));
+
+
+//9: var a = +prompt("Enter ");
+// function area(a, b) {
+//     return a*b;
+// }
+// console.log(area(a, 4));
+
+
+//10: var msg = "palindrone";
+// function palindrone(str) {
+// var b = str.toString();
+//     for(var i=0; i<b.length/2; i++) {
+//         if(b[i] != b[b.length-1-i]){
+//             msg = "not a palindrone";
+//             break;
+//         }
+//     }
+//     return b;
+// }
+// palindrone(121);
+// console.log(msg);
+ 
+
+//11: var q, p ,out;
+// function cap(str) {
+//     var result = str.split(" ");
+//     for(var i=0; i<result.length; i++) {
+//         q = result[i].slice(0,1).toUpperCase();
+//         p = result[i].slice(1).toLowerCase();
+//         out = q + p;
+//         // document.write(out, " ")
+//     }   
+//     return out;     
+// }
+// alert(cap("the quick brown fox"));
+
+
+//12: function longWord(str) {
+//     var op = str.split(" ");
+//     var long = "";
+//     for (var i = 0; i < op.length; i++) {
+//         if (op[i].length > long.length) {
+//             long = op[i];
+//         }
+//     }
+//     return long;
+// }
+// alert(longWord("Web Development Tutorial"));
+
+
+//13: var count = 0;
+// function occurence(str, check) {
+//     var bk = str.split("");
+//     for(var i=0; i<bk.length; i++) {
+//         if(bk[i] == check) {
+//             count++
+//         }
+//     }
+//     return count;
+// }
+// occurence("foot", "o")
+// console.log(count);
+
+
+//14: function circumference(r) {
+//     return 2*3.142*r;
+// }
+// console.log(circumference(2));
+
+// function circumference2(r2){
+//     return 3.142*r2;
+// }
+// console.log(circumference2(2));
+
+
+
+
+
+
+
+
+
+
+
+
+// var out, p, q;
+// var str = "web develop"
+// var result = str.split(" ");
+// for(var i=0; i<result.length; i++) {
+//     q = result[i].slice(0,1).toUpperCase();
+//     p = result[i].slice(1).toLowerCase();
+//     out = q + p;
+//    document.write(out, " ")
+//    console.log(result[i]);
+// }
+
+
+// var str = "web development";
+// var op = str.split(" ");
+// var long = "";
+// for (var i=0; i<op.length; i++) {
+//     if(op[i].length > long.length) {
+//         long = op[i];
+//     }
+// }
+// console.log(long);
+
+
+// var count = 0;
+// var str = "foot";
+// var bk = str.split("");
+// var check = "o";
+// for(var i=0; i<bk.length; i++) {
+//     if(bk[i] == check) {
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+// var a = "car";
+// var b = a.toString();
+// var msg = "palindrone";
+// for(var i=0; i<b.length/2; i++) {
+//     if(b[i] != b[b.length-1-i]) {
+//         msg = "not a palindrone";
+//         break;
+//     }
+// }
+// console.log(msg);
+// console.log(a[i]);
+// console.log(a[change.length-1-i]);
+
